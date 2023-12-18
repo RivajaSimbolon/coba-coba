@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  padding: 10px;
+  background: #334801; /* Change to your desired background color */
+}
+
+#badan {
+  width: 1200px;
+  border: 2px solid black;
+  margin: 0 auto;
+  padding: 10px 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px #ededed;
+  background: #8c88ec; /* Add a background color for the content area */
+}
+
+#header {
+  padding: 10px 10px;
+  height: 135px;
+  font-family: "Tekton Pro";
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px #ff5959;
+}
+#header h1 {
+  font-size: 30px;
+  margin: 0 auto;
+  width: 900px;
+}
+#header h2 {
+  font-size: 30px;
+  margin: 0;
+  font-family: "Lucida Calligraphy";
+  width: 900px;
+  margin: 0 auto;
+}
+#header img {
+  float: left;
+  margin: 0 auto;
+  width: 130px;
+  height: 130px;
+}
+#menu {
+  text-align: right;
+  height: 45px;
+  border: 1px solid black;
+  line-height: 45px;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #efefef, #665753);
+}
+#menu ul {
+  list-style-type: none;
+  font-family: "Arial Unicode MS";
+  margin: 0;
+  padding: 0;
+}
+#menu ul li {
+  float: left;
+  display: block;
+  margin: 0 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px yellow;
+}
+#menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+#menu ul li a:hover {
+  color: orange;
+  text-shadow: 1px 1px 1px white;
+}
+#konten {
+  font-family: "Palatino Linotype", "Book Antiaqua", Palatino, serif;
+  border: 1px solid black;
+  padding: 5px;
+  overflow: hidden;
+  background: #fff;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+#konten h3 {
+  font-size: 18px;
+  margin: 0;
+  background: linear-gradient(_90deg, #fff791, #beffae);
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 200px;
+}
+#kiri {
+  width: 170px;
+  float: left;
+  border: 1px solid black;
+  margin-right: 15px; /* Tambahkan margin-right agar ada jarak antara sidebar 1 dan konten */
+  border-radius: 10px;
+  text-align: left;
+  word-wrap: break-word;
+  padding: 5px;
+  background-image: url("ft.jpg");
+}
+
+#kiri h3 {
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+#kiri ul {
+  font-family: "Comic Sans MS", cursive;
+  margin: 0 10px 10px 20px;
+  list-style: none;
+  padding: 10;
+}
+
+#kiri ul li {
+  border-bottom: 1px #cccccc;  /*dashed untuk garis*/
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+
+#kiri ul li img {
+  height: 100px;
+  margin-top: -64px;
+  margin-left: -10px;
+  margin-right: 10px;
+  margin-bottom: 200px;
+}
+
+#konten h3 {
+  background-color: #beffae;
+  text-align: center;
+}
+
+#tengah {
+  border: 1px solid black;
+  width: 785px;
+  float: left;
+  margin-right: 15px; /* Tambahkan margin-right agar ada jarak antara konten dan sidebar 2 */
+  margin-bottom: 15px; /* Tambahkan margin-bottom agar ada jarak antara konten dan sidebar 2 yang berada di bawahnya */
+  text-align: left;
+  border-radius: 10px;
+  word-wrap: break-word;
+  padding: 10px;
+}
+#tengah p {
+  text-indent: 20px;
+  text-align: justify;
+}
+#tengah h3 {
+  background-color: #09f;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+#tengah a {
+  text-decoration: none;
+  color: #f55a5a;
+  text-shadow: 1px 1px 1px #09f;
+}
+#kanan {
+  border: 1px solid black;
+  float: right;
+  margin-top: -829px;
+  width: 160px;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  word-wrap: break-word;
+  background-image: url("ft.jpg");
+  margin-left: 15px;
+  margin-top: -1010px;
+}
+#kanan p {
+  font-size: 13px;
+  padding: 0;
+  text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+/* #kanan h3 {
+  text-align: ce;
+} */
+#footer {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  background: linear-gradient(to top, #efefef, #665753);
+  text-align: center;
+}
+
+#footer p {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  line-height: 30px;
+}
+
+.social-link {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-icon {
+  width: 20px;
+  height: auto;
+}
